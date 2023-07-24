@@ -1,0 +1,8 @@
+%L%Entertainment/Hobbies
+${Basketball: }$always down for a pickup game or one v one
+${Guitar: }$Been playing for three years and practiced piano for seven years prior. I prefer acoustic over classical/electric and love country fingerpicking.
+${Wake-surfing: }$perfect for the hot summers of austin. Disappointed Stanford isn’t near a large fresh body of water
+${Jogging: }$Every day I strive to run 4+ miles if time permits. My favorite running spot is the Lady Bird Trail around Lake Austin
+${Reading the news: }$Actively following American politics and foreign policy. My favorite publications are The Atlantic, The Guardian, and Vox
+${Working Out:}$ Push, pull, legs, push, pull, legs, rest. The classic cycle except I don’t ever work traps, hamstring, or glutes. 
+${Riflery: }$I don’t particularly like shotguns or bolt actions. I prefer and most familiar with standard .22 caliber semi automatic rifles

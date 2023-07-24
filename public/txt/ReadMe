@@ -1,0 +1,8 @@
+Key for repurposing:
+${    }$ - bold text between
+%L% - Large Header
+%M% - Medium Header
+%B% - Bold Header
+%I% - Italicized Header
+%BL% - Bulleted line
+%NL% - Blank Line

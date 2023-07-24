@@ -1,0 +1,16 @@
+%L%Academics
+${College GPA: }$3.8/4.0
+${SAT: }$1600/1600 (03/03/2021)
+${High School Rank: }$1/726 (Valedictorian)
+${High School GPA: }$4.3/4.0
+${Math 2 Subject Exam: }$800
+${AP Exams: }$(Human Geography: 5, Computer Science: 5, BC Calculus: 5, Chinese Language and Culture: 5, Physics I: 5, Physics II: 5, Language & Composition: 5, Statistics: 5, Chemistry: 5, Psychology: 5)
+%NL%
+%M%College Courses Completed
+${CS 106B: }$Programming abstractions
+${CS 107: }$Computer organization & systems
+${CS 103: }$Mathematical foundations of computing
+${Math 51: }$Linear algebra and differential calculus of several variables
+${CS 193x: }$Web Programming Fundamentals
+${CS 161: }$Algorithmic Design and Analysis
+${BIO 6N: }$Marine Conservation and Pathways to Solutions

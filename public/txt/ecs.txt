@@ -1,0 +1,62 @@
+%L%Extracurriculars
+%M%College Activities
+%B%Stanford Finance
+%I%Analyst
+%BL%Created 5-year DCF model for Apple and Alphabet using the perpetuity growth method and a sensitivity analysis on price-per-share
+%BL%Performed growth rate vs. WACC sensitivity analysis on Microsoft’s implied price-per-share; increased experience with Excel and financial research
+%BL%Attended exclusive networking events and workshops to prepare analysts for professions in the financial services industry
+%B%Blyth Investment Fund	
+%I%Analyst
+%BL%Identified undervalued companies, performed dozens of DCFs, researched economic moats, and developed coding scripts to identify depressed multiples
+%BL%Honed strategic bond, futures, and options trading techniques to produce and present stock pitches every week for committee review
+%BL%Delivered portfolio updates on $300k worth of assets within fund
+%B%SENSA Consulting
+%I%Consultant
+%BL%Assembled market sizing and price modeling consulting work for Alga Biosciences; led research on potential international partnerships and marketing strategy
+%BL%Gathered data to analyze consumer trends, market dynamics, and competitor behavior for optimal business model and marketing techniques
+%B%ASES Summit
+%I%Outreach Lead
+%BL%Mentored by current venture capitalists on building successful startups; assisted further research into potential promising startups in transportation sector
+%BL%Developed and pitched own unique business idea; received feedback from VCs
+%BL%Reached out to numerous startup and companies for school-wide startup fair
+%B%ML Bird Classification
+%I%Team Lead
+%BL%Lead a team to engineer a convolutional neural network to identify bird species in images for conservation efforts on endangered bird species 
+%BL%Optimized kernel and Relu dimensions and determined convolution sequence
+%BL%Spearheaded data augmentation by stretching, flipping, and filtering images
+%BL%Trained model from 3,113 images for final 0.90 f1-score on evaluation data
+%B%Association for Computing Machinery (ACM) 
+%I%Task Manager
+%BL%Experimented with GloVe word embeddings and BERT model for multilabel classification of human speech with club subteam for competition
+%BL%Attended weekly workshops on Pytorch, increased google Collab familiarity, examined various machine learning models, increased proficiency with python
+%B%Data And Mapping for Society (DAMs) 
+%I%Recruiting Lead
+%BL%Refined R and python abilities for data wrangling and analysis through co teaching workshops; assisted students in completing projects
+%BL%Collaborated with team to digitally map toxic sites for BHP Community Advocates using GIS to identify key areas of health risk
+%NL%
+%M%High School Activities
+%B%Westlake Speech And Debate
+%I%Captain (12) and Officer (11)
+%BL%Delivered 60+ lectures for 140+ cumulative members over three years
+%BL%Increased team size from 40 to over 80 students within five year span
+%BL%Outreached to other high schools to organize practice rounds
+%BL%Organized city wide debate tournaments for debaters to hone public speaking skills
+%B%Access Forum Initiative
+%I%Founder & Former President
+%BL%Managed 17 instructors to deliver 210+ hours of speech and politics instruction to 330+ students. 
+%BL%Created 6 weeks summer camps and outreached/advertised for programs
+%BL%Created 2 new debate teams at other schools to spread debate as an event
+%B%Chaps Hurricane Relief
+%I%Founder & President
+%BL%Managed 12 members to collect over 1000 donations for hurricane relief
+%BL%Pitched to local businesses, reached out to households, and advertised around campus
+%BL%Created care packages and coordinated with external nonprofits for effective response
+%B%Travis County Court
+%I%County Commissioner Assistant
+%BL%Reached out to business to plan future county projects and organize events
+%BL%Created a mailing list to constantly update constituents
+%BL%Coded script to log and analyze constituent concerns
+%B%Elizabeth Beck Campaign Team
+%I%Volunteer Coordinator & Lead
+%BL%Lead a team of 18 volunteers to call 2,800 voters and ask for preferences + remind them to vote
+%BL%Trained new volunteers and volunteered with polling on election day

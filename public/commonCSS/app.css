@@ -1,0 +1,59 @@
+.hidden {
+    display: none;
+}
+
+#backdrop {
+    background-color:rgb(111, 113, 113);
+}
+
+h1 {
+    color: white;
+}
+
+#mainPanel {
+    background-color: rgb(54, 93, 105);
+    border-style: solid;
+    border-color: rgba(23, 28, 28, 0.553);
+    border-width: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#choices {
+    display: flex;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(13, 134, 190);
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.option:hover {
+    background-color: rgb(102, 159, 185);
+    cursor: pointer;
+}
+
+.label {
+    margin-top: 7px;
+}

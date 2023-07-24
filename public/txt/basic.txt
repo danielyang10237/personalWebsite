@@ -1,0 +1,11 @@
+%L%Basic Info
+${Hometown: }$Bee Cave, Texas
+${Birthday: }$March 5th, 2004
+${High School: }$Westlake High School
+${Undergrad: }$Stanford University
+${Languages: }$English & Mandarin
+${Favorite Color: }$Blue 
+${Favorite Food: }$Jalapeno Chips
+${Favorite Musical Artist: }$Tyler the Creator
+${Morning or Night Shower: }$Night Shower
+${Celebrity Crush: }$Dua Lipa

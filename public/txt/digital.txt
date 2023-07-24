@@ -1,0 +1,13 @@
+%L%Digital Skills
+$B$Programming Languages: 
+${C++, Java: }$4 years of classes and several gaming projects experience; 
+${Javascript, JSX React, CSS, and HTML: }$Personal projects and online courses
+${Python, Rscript: }$1 year class and various club experiences
+${C, MATLAB: }$1 year class experience
+%NL%
+${Additional Skills: }$Excel, DCF Valuation, LBO models, Powerpoint, Arduino, Linear Algebra, Pytorch, Google Collab, MongoDB
+%NL%
+Full-Stack (Modern standardized APIs & best practices) (Desktop & Mobile web dev)
+Client-side: Layout & rendering through HTML & CSS, Event-driven programming through JavaScript, Single-threaded asynchronous programming techniques 
+%NL%
+Link to Github:

@@ -1,0 +1,15 @@
+%L%Goals/Careers
+%B%Career Objectives
+After college, my goal is to become situated in the tech industry as a software engineer. After a few years, I hope to become a product manager. As a product manager, I aim to identify consumer needs along with product strategy and direct a team to achieve my design visions. Eventually, my long term goal is to become an entrepreneur, founding my own tech company to save and sustain ocean ecology.
+%NL%
+%B%Skills Development
+I plan on furthering my backend development abilities through learning Ruby and Go. On the frontend side, I plan on creating further projects with React and discovering more useful external libraries for my potential future work. I’m still new and relatively inexperienced when it comes to large scale databases which I attempt to patch through finally learning SQL. With the bulk of my freshman courses focused on software algorithms and computer systems, I plan on taking a more AI/ML centered coursework for my sophomore year. I plan on supplementing my coursework by continuing my involvement in clubs like ACM that teach the basics for training and developing ML algorithms. 
+%NL%
+%B%Conservation Dreams:
+Visiting the Texas coastline often growing up, I was delighted to see the population of the Kemp’s Ridley sea turtle rebound over time. I hope to see a similar recovery story unfold with the Hawksbill and Leatherback sea turtle species. One of my greatest dreams is to assist in the development of reduced-bycatch netting, expansion of reserved turtle nesting areas, and reduced plastic oceanic pollutants. Save the turtles!
+%NL%
+%B%Personal Goals:
+%BL%Learn a new song on the guitar every week
+%BL%Talk to someone new everyday
+%BL%Obtain relative pitch and ability to sing
+%BL%Bench 205 by the end of the year

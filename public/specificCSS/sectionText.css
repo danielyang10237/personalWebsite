@@ -1,0 +1,29 @@
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-left: 50px;
+}
+
+.textHeaderM {
+    padding-left: 28px;
+}
+
+.boldHeader {
+    font-weight: bold;
+    padding-left: 38px;
+}
+
+.italicHeader {
+    font-style: italic;
+    padding-left: 38px;
+}
+
+.bulletedLine {
+    padding-left: 5px;
+}
+
+.paragraph {
+    padding-left: 50px;
+}

@@ -1,0 +1,97 @@
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#emptyFiller {
+  width: 130px;
+}
+
+#socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#instagram {
+  width: 80px;
+  padding-top: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#linkedIn {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 34px;
+}
+
+.switch {
+  left: 50%;
+  background-color: rgb(180, 228, 236);
+  border-radius: 10px;
+  width: 170px;
+  height: 35px;
+  margin-top: 28px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 80px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(27, 152, 220);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+input:checked + .slider {
+  background-color: #ed7534;
+  border-radius: 10px;
+}
+
+input:checked + .slider:before {
+  background-color: #752f09;
+  transform: translateX(100%);
+}
+
+.label-left {
+  position: absolute;
+  top: 50%;
+  transform: translate(225%, -50%);
+}
+
+.label-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(42%, -50%);
+}
+
+.switch.switched {
+    background-color: #ed7534;
+    border-radius: 10px;
+  }
+  
+  .switch.switched .slider:before {
+    background-color: #752f09;
+    transform: translateX(100%);
+  }

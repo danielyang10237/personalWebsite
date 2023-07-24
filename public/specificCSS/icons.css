@@ -1,0 +1,46 @@
+#creatureIcons {
+  display: flex;
+  align-items: center;
+}
+
+.infoIcons {
+  max-width: 170px;
+  max-height: 170px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.waterCol {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+}
+
+#academicsIcon {
+  margin-top: 100px;
+}
+
+#hobbiesIcon {
+    margin-top: 300px;
+}
+
+#extracurricularIcon {
+    margin-top: 50px;
+}
+
+#basicIcon {
+    margin-top: 200px;
+}
+
+#goalsIcon {
+    margin-top: 350px;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  background-color: rgb(104, 175, 193);
+}

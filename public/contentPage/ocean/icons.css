@@ -9,6 +9,7 @@
   width: auto;
   height: auto;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .waterCol {
@@ -42,5 +43,4 @@
   height: 0;
   overflow: hidden;
   transition: height 0.3s ease;
-  background-color: rgb(104, 175, 193);
 }

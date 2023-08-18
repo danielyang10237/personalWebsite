@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <title>Final Project</title>
 
-    <link rel="stylesheet" href="commonCSS/index.css" />
+    <link rel="stylesheet" href="index.css" />
 
-    <script type="module" src="/js/switcher.js"></script>
+    <script type="module" src="/openingPage/switcher.js"></script>
   </head>
 
   <div class="introBackground">
@@ -32,14 +32,62 @@
   </div>
 
   <body class="mainPage">
-    <div id="acoustic" class="hidden">
-      <header>
-        <h1 id="acousticTitle">Daniel's Musical Space</h1>
-      </header>
+    <div id="acousticBackDrop" class="acoustic hidden">
+      <div id="introSectionAcoustic" class="acoustic">
+        <h2>Hi Everyone, my name is Daniel</h2>
+        <h3>
+          I'm currently a freshman at Stanford studying Computer Science and
+          Marine Sustainability. My academic interests include web design, deep
+          learning, and marine ecology
+        </h3>
+        <div id="introSectionGuitar">
+          <h2 id="introStatement">
+            Click the icons below for more information
+          </h2>
+        </div>
+      </div>
+
+      <div id="guitarBackground" class="acoustic">
+        <svg width="0" height="0">
+          <filter id="fuzzyBorder">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+          </filter>
+        </svg>
+        <div class="stringContainer acoustic extracurriculars" id="firstStringContainer">
+          <p class="stringLabel" id="firstStringLabel">Extracurriculars</p>
+          <p></p>
+          <div class="fuzzy-border" id="string1"></div>
+        </div>
+        <div class="stringContainer acoustic academics" id="secondStringContainer">
+          <p class="stringLabel" id="secondStringLabel">Academics</p>
+          <p></p>
+          <div class="fuzzy-border" id="string2"></div>
+        </div>
+        <div class="stringContainer acoustic digital_skills" id="thirdStringContainer">
+          <p class="stringLabel" id="thirdStringLabel">Digital Skills</p>
+          <p></p>
+          <div class="fuzzy-border" id="string3"></div>
+        </div>
+        <div class="stringContainer acoustic goals" id="fourthStringContainer">
+          <p class="stringLabel" id="fourthStringLabel">Goals</p>
+          <p></p>
+          <div class="fuzzy-border" id="string4"></div>
+        </div>
+        <div class="stringContainer acoustic basic_info" id="fifthStringContainer">
+          <p class="stringLabel" id="fifthStringLabel">Basic Info</p>
+          <p></p>
+          <div class="fuzzy-border" id="string5"></div>
+        </div>
+        <div class="stringContainer acoustic entertainment" id="sixthStringContainer">
+          <p class="stringLabel" id="sixthStringLabel">Entertainment</p>
+          <p></p>
+          <div class="fuzzy-border" id="string6"></div>
+        </div>
+      </div>
     </div>
 
-    <div id="aquatic">
-      <div id="introSection">
+    <div id="aquatic" class="aquatic hidden">
+      <div id="introSection" class="aquatic">
         <h2>Hi Everyone, my name is Daniel</h2>
         <h3>
           I'm currently a freshman at Stanford studying Computer Science and
@@ -48,7 +96,7 @@
         </h3>
       </div>
 
-      <div id="oceanBackground">
+      <div id="oceanBackground" class="aquatic">
         <div id="introSection">
           <h2 id="introStatement">
             Click the icons below for more information
@@ -60,7 +108,7 @@
             <img
               src="./images/seaTurtle.png"
               alt="sea turtle icon"
-              class="infoIcons"
+              class="infoIcons academics"
               id="academicsIcon"
             />
           </div>
@@ -68,7 +116,7 @@
             <img
               src="./images/reefShark.jpg"
               alt="reef shark icon"
-              class="infoIcons"
+              class="infoIcons entertainment"
               id="hobbiesIcon"
             />
           </div>
@@ -76,7 +124,7 @@
             <img
               src="./images/mantaray.jpg"
               alt="mantaray icon"
-              class="infoIcons"
+              class="infoIcons extracurriculars"
               id="extracurricularIcon"
             />
           </div>
@@ -84,7 +132,7 @@
             <img
               src="./images/jellyfish.jpg"
               alt="jellyfish icon"
-              class="infoIcons"
+              class="infoIcons basic_info"
               id="basicIcon"
             />
           </div>
@@ -92,14 +140,19 @@
             <img
               src="./images/octopus.jpg"
               alt="octopus icon"
-              class="infoIcons"
+              class="infoIcons goals"
               id="goalsIcon"
             />
           </div>
         </section>
       </div>
 
-      <section id = "hiddenInfoSections"></section>
+      <main>
+        <div></div>
+      </main>
+    </div>
+
+    <section id="hiddenInfoSections"></section>
 
       <main id="commentSection">
         <div id="commentTitle">
@@ -129,10 +182,5 @@
           <div id="commentFeed"></div>
         </section>
       </main>
-
-      <main>
-        <div></div>
-      </main>
-    </div>
   </body>
 </html>

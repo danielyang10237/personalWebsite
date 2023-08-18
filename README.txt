@@ -1,28 +1,11 @@
-CS193X Final Project
-====================
+Welcome to my personal website project space. 
 
-Project Title: <TODO>
-Your Name: <TODO>
-Your SUNetID: <TODO: the part of your email before the @, not the number>
+The following code sets up a front-end layout styling to display all sorts of personal information. 
+This project uses a local backend mongoDB to store comments
+To repurpose this project for your own personal use, replace the files in the txt folder with your own personal information and reroute the code to your own database in the api folder
+The entire project is build without using React. Although using React would've been faster to develop, the goal of this project is to further deepen my understanding of web development behind the scenes
 
-Overview
---------
-<TODO: A short description of your project and what it does.>
+There are no external libraries required to be installed
 
-Running
--------
-<TODO: In general, we should be able to `npm install` and `npm start` your project. If there is anything else we need to know about running your project, please let us know here.>
-
-Do we need to load data from init_db.mongodb? <TODO: Yes/No>
-
-Features
---------
-<TODO: This doesn't have to be a comprehensive list. But if there's anything we should definitely try or might miss, this is a good place to let us know about that.>
-
-Collaboration and libraries
----------------------------
-<TODO: Identify any sources you have consulted or libraries/external code you used. If your project overlaps with another project or coursework for another class, please describe the overlap and the parts specific to you/193X here.>
-
-Anything else?
--------------
-<TODO: Anything else you'd like the teaching staff to know? How was the course overall?>
+To run the project after pulling the code, simply start your backend database and navigate to index.js in public. From index.js, run "npm start" in the command terminal
+Happy coding!

@@ -3,23 +3,19 @@ export default class iconsHandler {
     this.hiddenSections = [];
     this.uploadContents();
 
-    this.academics = document.querySelector(`#academicsIcon`);
-    this.academics.addEventListener("click", this.academicHandler.bind(this));
+    this.addHandlers(".academics", this.academicHandler);
+    this.addHandlers(".entertainment", this.hobbiesHandler);
+    this.addHandlers(".extracurriculars", this.extracurrcularHandler);
+    this.addHandlers(".basic_info", this.basicHandler);
+    this.addHandlers(".goals", this.goalsHandler);
+    this.addHandlers(".digital_skills", this.digitalHandler);
+  }
 
-    this.hobbies = document.querySelector(`#hobbiesIcon`);
-    this.hobbies.addEventListener("click", this.hobbiesHandler.bind(this));
-
-    this.extacurriculars = document.querySelector(`#extracurricularIcon`);
-    this.extacurriculars.addEventListener(
-      "click",
-      this.extracurrcularHandler.bind(this)
-    );
-
-    this.basic = document.querySelector(`#basicIcon`);
-    this.basic.addEventListener("click", this.basicHandler.bind(this));
-
-    this.goals = document.querySelector(`#goalsIcon`);
-    this.goals.addEventListener("click", this.goalsHandler.bind(this));
+  addHandlers(class_name, function_name) {
+    this.elementTrigger = document.querySelectorAll(class_name);
+    for (let element of this.elementTrigger) {
+      element.addEventListener("click", function_name.bind(this));
+    }
   }
 
   hideAllSections() {
@@ -34,6 +30,7 @@ export default class iconsHandler {
     this.readFile("../txt/hobbies.txt", "Hobbies");
     this.readFile("../txt/goals.txt", "Goals");
     this.readFile("../txt/basic.txt", "Basic");
+    this.readFile("../txt/digital.txt", "Digital");
   };
 
   getHiddenSection(id) {
@@ -64,7 +61,6 @@ export default class iconsHandler {
             newTitle.className = "textHeaderL";
             newTitle.textContent = line.substring(3);
             newSection.append(newTitle);
-            // console.log(newTitle);
           } else if (line.startsWith(`%M%`)) {
             const newBody = document.createElement("h3");
             newBody.className = `textHeaderM`;
@@ -128,7 +124,8 @@ export default class iconsHandler {
           }
         });
 
-        document.querySelector("#hiddenInfoSections").append(newSection);
+        const hiddenSections = document.querySelectorAll("#hiddenInfoSections");
+        hiddenSections[0].append(newSection);
       })
       .catch((err) => {
         console.error(err);
@@ -174,5 +171,13 @@ export default class iconsHandler {
 
     let goalsSection = this.getHiddenSection("Goals");
     goalsSection.style.height = goalsSection.scrollHeight + "px";
+  }
+
+  digitalHandler(event) {
+    event.preventDefault();
+    this.hideAllSections();
+
+    let digitalSection = this.getHiddenSection("Digital");
+    digitalSection.style.height = digitalSection.scrollHeight + "px";
   }
 }

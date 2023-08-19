@@ -1,8 +1,8 @@
 {
   "name": "@cs193x/project",
   "version": "2023.spr",
-  "author": "Your Name <your@email>",
-  "description": "CS193X Final Project",
+  "author": "Daniel Yang <dy92634@stanford.edu>",
+  "description": "Personal Project",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",

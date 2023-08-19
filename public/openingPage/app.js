@@ -13,13 +13,24 @@ export default class App {
     event.preventDefault();
 
     window.page = "ocean";
-    window.location.href = "../personalWebsite/public/pageLayout.html?page=ocean";
+    
+    const baseOrigin = window.location.origin;
+
+    const newPageUrl = `${baseOrigin}/personalWebsite/public/pageLayout.html?page=ocean`;
+
+    window.location.href = newPageUrl;
   }
 
   redirectToGuitarPage(event) {
     event.preventDefault();
 
+    event.preventDefault();
+
     window.page = "guitar";
-    window.location.href = "../personalWebsite/public/pageLayout.html?page=guitar";
+    
+    const baseOrigin = window.location.origin;
+
+    const newPageUrl = `${baseOrigin}/personalWebsite/public/pageLayout.html?page=guitar`;
+    window.location.href = newPageUrl;
   }
 }

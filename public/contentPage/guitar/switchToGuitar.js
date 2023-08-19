@@ -3,11 +3,11 @@ export default function switchToGuitar() {
   pageBackground.classList.add("guitar");
 
   var background = document.getElementById("guitarBackground");
-  background.style.backgroundImage = "url('../images/underwater.jpg')";
+  background.style.backgroundImage = "url('../public/images/underwater.jpg')";
   var backgroundHead = document.querySelector(".introBackground");
-  backgroundHead.style.backgroundImage = "url('../images/guitarTop.jpg')";
+  backgroundHead.style.backgroundImage = "url('../public/images/guitarTop.jpg')";
   var background = document.getElementById("guitarBackground");
-  background.style.backgroundImage = "url('../images/guitar.jpg')";
+  background.style.backgroundImage = "url('../public/images/guitar.jpg')";
 
   const elements = document.querySelectorAll(".hr-styled1");
   elements.forEach((element) => {

@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 
 const dirname = process.cwd();
-const publicPath = path.join(dirname, "public");
+const publicPath = path.join(dirname, "");
 console.log(`Serving files from ${publicPath}`);
 app.use("/lib/client", express.static(path.join(dirname, "lib", "client")));
 app.use(express.static(publicPath));

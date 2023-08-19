@@ -3,9 +3,9 @@ export default function switchToOcean() {
   pageBackground.classList.remove("guitar");
 
   var background = document.getElementById("oceanBackground");
-  background.style.backgroundImage = "url('../images/underwater.jpg')";
+  background.style.backgroundImage = "url('../public/images/underwater.jpg')";
   var backgroundHead = document.querySelector(".introBackground");
-  backgroundHead.style.backgroundImage = "url('../images/surface.jpg')";
+  backgroundHead.style.backgroundImage = "url('../public/images/surface.jpg')";
 
   var topHeader = document.querySelector(".introBackground");
   var divider = document.createElement("hr");

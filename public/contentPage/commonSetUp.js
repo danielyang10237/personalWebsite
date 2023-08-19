@@ -54,9 +54,9 @@ export async function createComments() {
   commentForm.addEventListener("submit", submitCommentHandler.bind(this));
 
   const instaIcon = document.getElementById("instagram");
-  instaIcon.src = "../images/instagram.png";
+  instaIcon.src = "../public/images/instagram.png";
   const linkedInIcon = document.getElementById("linkedIn");
-  linkedInIcon.src = "../images/linkedin.png";
+  linkedInIcon.src = "../public/images/linkedin.png";
   instaIcon.addEventListener("click", instaHandler.bind(this));
   linkedInIcon.addEventListener("click", linkedInHandler.bind(this));
 

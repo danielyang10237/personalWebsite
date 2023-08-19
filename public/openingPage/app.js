@@ -13,13 +13,13 @@ export default class App {
     event.preventDefault();
 
     window.page = "ocean";
-    window.location.href = "../pageLayout.html?page=ocean";
+    window.location.href = "../public/pageLayout.html?page=ocean";
   }
 
   redirectToGuitarPage(event) {
     event.preventDefault();
 
     window.page = "guitar";
-    window.location.href = "../pageLayout.html?page=guitar";
+    window.location.href = "../public/pageLayout.html?page=guitar";
   }
 }

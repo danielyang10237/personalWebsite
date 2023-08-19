@@ -25,12 +25,12 @@ export default class iconsHandler {
   }
 
   uploadContents = () => {
-    this.readFile("../txt/ecs.txt", "Extracurriculars");
-    this.readFile("../txt/academics.txt", "Academics");
-    this.readFile("../txt/hobbies.txt", "Hobbies");
-    this.readFile("../txt/goals.txt", "Goals");
-    this.readFile("../txt/basic.txt", "Basic");
-    this.readFile("../txt/digital.txt", "Digital");
+    this.readFile("../public/txt/ecs.txt", "Extracurriculars");
+    this.readFile("../public/txt/academics.txt", "Academics");
+    this.readFile("../public/txt/hobbies.txt", "Hobbies");
+    this.readFile("../public/txt/goals.txt", "Goals");
+    this.readFile("../public/txt/basic.txt", "Basic");
+    this.readFile("../public/txt/digital.txt", "Digital");
   };
 
   getHiddenSection(id) {

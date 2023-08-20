@@ -12,7 +12,7 @@ const initApi = async (app) => {
   app.set("json spaces", 2);
   app.use("/api", api);
 
-  let connection = await MongoClient.connect("mongodb://127.0.0.1");
+  let connection = await MongoClient.connect("mongodb+srv://danyang92634:Oaktree47@websitecomments.kmsvtiw.mongodb.net/websiteComments?retryWrites=true&w=majority");
   let database = connection.db(database_name);
 
   let collectionNames = await database.listCollections().toArray();

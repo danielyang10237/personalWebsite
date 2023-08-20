@@ -12,13 +12,11 @@ const initApi = async (app) => {
   app.set("json spaces", 2);
   app.use("/api", api);
 
-  // Update the connection string to the MongoDB Atlas cluster
-  const atlasConnectionString = "mongodb+srv://dy92634:vAwmin-weqrov-pidsa2@websitecomments.kmsvtiw.mongodb.net/?retryWrites=true&w=majority";
-  let connection = await MongoClient.connect(atlasConnectionString, { useNewUrlParser: true, useUnifiedTopology: true });
+  let connection = await MongoClient.connect("mongodb+srv://danyang92634:Oaktree47@websitecomments.kmsvtiw.mongodb.net/websiteComments?retryWrites=true&w=majority");
   let database = connection.db(database_name);
 
   let collectionNames = await database.listCollections().toArray();
-  console.log("Connected to MongoDB Atlas. Collections:", collectionNames.map(col => col.name));
+  console.log("Connected to MongoDB. Collections:", collectionNames.map(col => col.name));
 
   commentList = database.collection("comments");
 };
